@@ -4,6 +4,8 @@
 编写环境：vs2017 运行环境：linux或cyqwin 
 对代码进行了复现 并注释
 代码结构：
+
+
   ---Network.h 头文件
   ---Alignment.h 头文件
   ---Network.cpp 网络创建部分代码
@@ -12,6 +14,8 @@
   ---资源文件 Test1.tab Test2.tab Test1_Test2.bitscore
  
 运行：在linux环境下进行编译  可以使用makefile或单独文件编译（后期有时间添加makefiel）
+
+
     g++ Network.h
     g++ Alignment.h
     g++ -c Network.cpp
