@@ -7,20 +7,30 @@
 
 
   ---Network.h 头文件
+  
   ---Alignment.h 头文件
+  
   ---Network.cpp 网络创建部分代码
+  
   ---Alignment.cpp 网络对齐函数
+  
   ---HubAlign.cpp 主函数
+  
   ---资源文件 Test1.tab Test2.tab Test1_Test2.bitscore
  
 运行：在linux环境下进行编译  可以使用makefile或单独文件编译（后期有时间添加makefiel）
 
 
 g++ Network.h
+
 g++ Alignment.h
+
 g++ -c Network.cpp
+
 g++ -c Alignment.cpp
+
 g++ -c HubAlign.cpp
+
 ----生成.o文件
 g++ network.o Alignment.o HubAlign.o -o HubAlign(可更改为任意名字）
  
