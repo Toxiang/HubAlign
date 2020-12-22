@@ -16,13 +16,13 @@
 运行：在linux环境下进行编译  可以使用makefile或单独文件编译（后期有时间添加makefiel）
 
 
-    g++ Network.h
-    g++ Alignment.h
-    g++ -c Network.cpp
-    g++ -c Alignment.cpp
-    g++ -c HubAlign.cpp
-    ----生成.o文件
-    g++ network.o Alignment.o HubAlign.o -o HubAlign(可更改为任意名字）
+g++ Network.h
+g++ Alignment.h
+g++ -c Network.cpp
+g++ -c Alignment.cpp
+g++ -c HubAlign.cpp
+----生成.o文件
+g++ network.o Alignment.o HubAlign.o -o HubAlign(可更改为任意名字）
  
     ---生成可执行文件
     ./HubAlign Test1.tab Test2.tab -l 0.1 -a 0.7 -d 10 -b Test1_Test2.bitscore
