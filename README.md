@@ -1,6 +1,8 @@
 # HubAlign
 原代码连接：https://github.com/hashemifar/HubAlign
 
+## Alignment.cpp 文件暂时有问题 还没发现 请用原文的代替 排查后更新
+
 编写环境：vs2017 运行环境：linux或cyqwin 
 对代码进行了复现 并注释
 代码结构：
